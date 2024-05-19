@@ -1,0 +1,7 @@
+<div class="col-sm-2">
+    <select class="form-select" [(ngModel)]="listFilter" (ngModelChange)="updateFilter($event)">
+        <option value="0">All courses</option>
+        <option value="1">Completed courses</option>
+        <option value="2">Not yet played</option>
+    </select>
+</div>

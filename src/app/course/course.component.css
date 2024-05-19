@@ -1,0 +1,28 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .add-course-form {
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  .course-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .course-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .course-item:hover {
+    background-color: #e9e9e9;
+  }

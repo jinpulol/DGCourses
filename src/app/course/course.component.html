@@ -1,0 +1,13 @@
+<div class="container">
+    <add-course-form (addCourse)="items.push($event)">
+    </add-course-form>
+  
+    <div class="row mt-3">
+      <course-filter [(filter)]="filter"></course-filter>
+    </div>
+  
+    <div class="row mt-3">
+      <div class="col-sm-4">
+        <course-list [courses]="items.filter(filter)"></course-list>
+      </div>
+    </div>

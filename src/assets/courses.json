@@ -1,0 +1,14 @@
+[
+    {
+        "courseText": "Äijänpelto Frisbeegolf!",
+        "isComplete": true
+    },
+    {
+        "courseText": "Talin Frisbeegolfpuisto",
+        "isComplete": false
+    },
+    {
+        "courseText": "Kirkkonummen Frisbeegolfrata",
+        "isComplete": false
+    }
+]
